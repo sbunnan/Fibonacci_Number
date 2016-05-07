@@ -34,7 +34,7 @@ def main():
         return "Buzz\nfizz"
     elif sum % 3 == 0 and sum >2:    # check if sum is divisible by 3 and print "Buzz" if true
         return 'Buzz'
-    elif sum % 5 == 0 and sum >2:   # check if sum is divisible ny 5 and print "Fizz" if true
+    elif sum % 5 == 0 and sum >5:   # check if sum is divisible ny 5 and print "Fizz" if true
         return 'Fizz'
     else:
         sum = check_prime(N, sum)
